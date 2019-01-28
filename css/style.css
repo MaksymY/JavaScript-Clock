@@ -41,4 +41,31 @@
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.68, 0.6, 0.99);
+  }
+
+  .second-hand{
+    height: 3px;
+  }
+
+  .hour-hand{
+    width: 40%;
+    height: 13px;
+    left:10%
+  }
+
+  .cent{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 50%;
+    margin: 190px auto;
+    left: 48.2%;
+    top: 14%;
+    position: absolute;
+    background: whitesmoke;
+    z-index: 2;
   }
